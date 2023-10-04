@@ -1,23 +1,17 @@
 {
-  "name": "react-pwa",
+  "name": "pwa-app",
   "version": "2.1.0",
-  "description": "Starter kit for modern web applications",
-  "homepage": "https://react-pwa.surenatoyan.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/suren-atoyan/react-pwa.git"
-  },
-  "bugs": {
-    "url": "https://github.com/suren-atoyan/react-pwa/issues",
-    "email": "contact@surenatoyan.com"
-  },
+  "description": "Start Application by PWA",
+  "homepage": "https://quangmv-rikkeisoft.github.io/pwa-app",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "https-preview": "serve dist",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -27,6 +21,7 @@
     "@mui/material": "^5.10.6",
     "@mui/system": "^5.10.6",
     "@mui/utils": "^5.10.6",
+    "gh-pages": "^6.0.0",
     "is-mobile": "^3.1.1",
     "notistack": "^2.0.5",
     "react": "^18.2.0",
@@ -65,9 +60,8 @@
     ]
   },
   "author": {
-    "name": "Suren Atoyan",
-    "email": "contact@surenatoyan.com",
-    "url": "http://surenatoyan.com/"
+    "name": "QuangMV",
+    "email": "quangmv@rikkeisoft.com"
   },
   "keywords": [
     "react",

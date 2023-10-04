@@ -1,1 +1,0 @@
-import{M as e}from"./Meta.1a856b47.js";import{F as a,T as t}from"./App.3fdf477d.js";import{B as i,F as o,j as r}from"./index.d0054462.js";import"./index.module.92ed0f1f.js";import"./index.2831d98d.js";function d(){return i(o,{children:[r(e,{title:"page 1"}),r(a,{children:r(t,{variant:"h3",children:"Page 1"})})]})}export{d as default};
